@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    color: blue;
+    /*text color also this is how you comment in css you do a slash the astrx then clost with an astric and a slash */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    /*also CSS is everything between style*/
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    /*this is to just change the header font, this changes what is h1 (my name)*/
+    text-align: center;
+    /*center header*/
+}
+
+h5 {
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+a {
+    color: aqua;
+    /*this is for anchor link stuff*/
+}
+
+a:visited {
+    /*when the link has been clicked on what color*/
+    color: brown;
+}
+
+img {
+    border: 2px solid fuchsia;
+    padding: 3px;
+    margin: 5px;
+    /*this is how you seperate space between images, it goes your content, then the padding, then the border, then the margin THIS IS CALLED BOX MODEL how you seperate stuff*/
+
+    /*this is how you center stuff (below)*/
+    display: block;
+    margin: auto;
+    /*If it doens't work, you can force center by typing "center"then enter insert all the stuff in the middle then >center*/
+
+}
+
+.rizz {
+    /*you put the ."new style name" to apply it to an element, you apply is by giving the elemnt a class right after <img for example you would put <img class rizz*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chartreuse;
+    border-color: azure;
+    background-color: blueviolet;
+    font-size: x-large;
+    border: dashed;
+}
+
+.rizz:hover {
+    font-family: cursive;
+    border: none;
+}
+
+

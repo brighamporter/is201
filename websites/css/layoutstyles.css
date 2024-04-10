@@ -1,0 +1,84 @@
+body{
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common{
+    background-color: #cccccc;
+    border: 2px solid white;
+    position:absolute;
+
+}
+
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+}
+
+.leftmenu{
+    top: 114px;
+}
+
+.mainbody{
+
+}
+
+.rightmenu{
+
+}
+
+.footer{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*positioning styles from in class
+.common{
+    position: absolute;
+    border: 5px solid black;
+    background-color: blanchedalmond;
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    background-color: lightblue
+}
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    
+
+}
+.content{
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+}
+.nav{
+    position: relative;
+    float: right;
+    color: palegreen;
+    background-color: chartreuse;
+    */
+
+    

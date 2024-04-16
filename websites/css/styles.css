@@ -1,17 +1,18 @@
 body {
     background-color: black;
-    color: blue;
+    color: whitesmoke;
     /*text color also this is how you comment in css you do a slash the astrx then clost with an astric and a slash */
     font-family: Georgia, 'Times New Roman', Times, serif;
 
     /*also CSS is everything between style*/
 }
 
-h1 {
+.commontop {
     font-family: 'Courier New', Courier, monospace;
     /*this is to just change the header font, this changes what is h1 (my name)*/
     text-align: center;
     /*center header*/
+    color: greenyellow;
 }
 
 h5 {
@@ -19,19 +20,21 @@ h5 {
     font-style: italic;
     font-weight: lighter;
 }
-
+p{
+    color: greenyellow;
+}
 a {
-    color: aqua;
+    color: green;
     /*this is for anchor link stuff*/
 }
 
 a:visited {
     /*when the link has been clicked on what color*/
-    color: brown;
+    color: white;
 }
 
 img {
-    border: 2px solid fuchsia;
+    border: 2px solid greenyellow;
     padding: 3px;
     margin: 5px;
     /*this is how you seperate space between images, it goes your content, then the padding, then the border, then the margin THIS IS CALLED BOX MODEL how you seperate stuff*/
@@ -43,19 +46,47 @@ img {
 
 }
 
+
+
 .rizz {
     /*you put the ."new style name" to apply it to an element, you apply is by giving the elemnt a class right after <img for example you would put <img class rizz*/
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: chartreuse;
-    border-color: azure;
-    background-color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    background-color: white;
     font-size: x-large;
-    border: dashed;
+    border: none
 }
 
 .rizz:hover {
     font-family: cursive;
-    border: none;
+    border: dashed
+}
+
+.videocontainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border: 2px solid greenyellow;
+    position: relative;
+    width: 100%;
+    max-width: 560px; /* set a max-width to control the size */
+    margin: 0 auto; /* center the container horizontally */
+  }
+
+.normaltext{
+    text-align: center;
 }
 
 
+.fancy{
+    font-family: cursive;
+    color: gold;
+    text-align: center;
+    font-size: x-large;
+}
+
+.header{
+    font-family: cursive;
+    color: white;
+    text-align: left;
+}
